@@ -52,8 +52,8 @@ def main(one):
       
     char = input('INSERT ----> ')
     for word in file:
-      lunghezza = len(word)    
-      number = int(lunghezza/2)
+      length = len(word)    
+      number = int(length/2)
       wordlist.append(word[:number] + char + word[number:])
       
     file = open(f'{name}','w')
